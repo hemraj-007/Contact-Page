@@ -1,8 +1,33 @@
-# React + Vite
+# React Contact Form with Tailwind CSS and Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This project is a responsive contact form built with React, styled with Tailwind CSS, and uses Axios for managing API requests. It includes client-side validation and integrates with SheetDB API to store form submissions.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design with Tailwind CSS
+- Real-time form validation
+- Axios for API requests
+- Integration with SheetDB API for storing submissions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the development server with `npm run dev`
+
+## Dependencies
+- React
+- Axios
+- Tailwind CSS
+
+## Contact Form Validation
+Validation ensures all fields are filled in correctly:
+- Name: Non-empty
+- Email: Valid email format
+- Phone: 10 digits number
+- Message: Non-empty
+
+## API Integration
+Form submissions are sent to SheetDB via an Axios POST request.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
